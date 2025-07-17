@@ -20,6 +20,7 @@
 **3. Update component.json**
     - Open the file: yourPlugin/webapp/designer/component.json
     - Inside the extensions list, add an entry for the plugin with the following structure:
+    
           {
             "provider": "rits/extension/plugin/sfcCardExtensionProvider/ExtensionProvider",
             "controller": "sap.dm.dme.plugins.headerInformationPlugin",
